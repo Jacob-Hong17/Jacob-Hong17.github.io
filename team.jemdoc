@@ -1,0 +1,109 @@
+# jemdoc: menu{MENU}{index.html}, footer
+==Team Member
+
+== PI: Ercan Engin Kuruoglu
+~~~
+{}{img_left}{photo/bio.png}{alt text}{100}{110}{}\n 
+Professor, Ph.D. Supervisor\n 
+E-mail: kuruoglu@sz.tsinghua.edu.cn\n
+[biography.html Biography]\n 
+~~~
+
+== Postdoctoral Researcher
+
+== Ph.D. Student
+~~~
+{}{img_left}{photo/yanyi.jpg}{alt text}{100}{110}{}
+Yi Yan\n 
+Topic: Stochastic graphs\n
+E-mail:y-yan20@mails.tsinghua.edu.cn\n
+~~~
+
+== Master Student
+
+~~~
+{}{img_left}{photo/MaverickLim.jpg}{alt text}{100}{110}{}
+Maverick Lim\n 
+E-mail:mavericklim91@gmail.com\n
+~~~
+
+~~~
+{}{img_left}{photo/LIMutong.jpg}{alt text}{100}{110}{}
+Mutong Li\n 
+Topic: Remote sensing\n
+E-mail:li-mt20@mails.tsinghua.edu.cn\n
+~~~
+
+~~~
+{}{img_left}{photo/PoorichC.jpg}{alt text}{100}{110}{}
+Poorich Chatchaipaiboon\n 
+E-mail:poorich.eng@gmail.com\n
+~~~
+
+
+~~~
+{}{img_left}{photo/JunLin Guo.jpg}{alt text}{100}{110}{}
+JunLin Guo\n 
+E-mail:441503023@qq.com\n
+~~~
+
+~~~
+{}{img_left}{photo/Radwa Adel.jpg}{alt text}{100}{110}{}
+Radwa Adel\n 
+E-mail:Rodyadel164@gmail.com\n
+~~~
+
+~~~
+{}{img_left}{photo/Mengen Luo.jpg}{alt text}{100}{110}{}
+Mengen Luo\n 
+Topic: Bayesian learning\n
+E-mail:lme21@mails.tsinghua.edu.cn\n
+~~~
+
+
+~~~
+{}{img_left}{photo/Zhendong Shi.jpg}{alt text}{100}{110}{}
+Zhendong Shi\n 
+
+E-mail:shizd20@tsinghua.edu.cn\n
+~~~
+
+
+~~~
+{}{img_left}{photo/Fengfan Zhao.jpg}{alt text}{100}{110}{}
+Fengfan Zhao\n 
+Topic: Statistical Machine Learning\n
+E-mail:zff21@mails.tsinghua.edu.cn\n
+~~~
+
+~~~
+{}{img_left}{photo/pengchangran.jpg}{alt text}{100}{110}{}
+Changran Peng\n 
+
+E-mail:pcr21@mails.tsinghua.edu.cn\n
+~~~
+
+
+== Alumni
+~~~
+{}{img_left}{photo/JackKuo.jpg}{alt text}{100}{110}{}
+Jack Guo\n 
+Thesis: Neural Network Optimization\n
+Master Student, co-advised with Victor Chan\n 
+~~~
+
+~~~
+{}{img_left}{photo/Junping.jpg}{alt text}{100}{110}{}
+Junping Hong\n 
+Thesis: Graph-based Non-stationary Time Series Forecasting\n 
+Master Student, co-advised with Victor Chan\n 
+Current affiliation: Research assitant of Tsinghua-Bekeyly Institude \n
+~~~
+
+~~~
+{}{img_left}{photo/keren.png}{alt text}{100}{110}{}
+Keren Artiaga\n 
+Thesis: Cross-Sign Language Transfer Learning using Domain Adaptation with Multi-scale Temporal Alignment\n 
+Master Student, co-advised with Victor Chan\n 
+Current affiliation: Ph.D. study at Ghent University, Belguim.\n
+~~~

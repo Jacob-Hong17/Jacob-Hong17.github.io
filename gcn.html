@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Bayesian Graph Convolution Network</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">TVDS Group</div>
+<div class="menu-item"><a href="index.html" class="current">Home</a></div>
+<div class="menu-item"><a href="research.html">Research</a></div>
+<div class="menu-item"><a href="team.html">Team</a></div>
+<div class="menu-item"><a href="publications.html">Publications</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Bayesian Graph Convolution Network</h1>
+<div id="subtitle">
+Recently, Graph Convolutional Networks (GCNs) have been used to address node and graph classification and matrix completion. 
+Brain disease prediction, which constructs the graph representation, also achieves effective results using the GCN. However, 
+the current implementations have limited capability to incorporate uncertainty in the graph structure. Bayesian-GCN views the 
+observed graph as a realization from a parametric family of random graphs. It targets inference of the joint posterior of the 
+random graph parameters and the node (or graph) labels using Bayes&rsquo; theorem.<br />
+
+<br />
+Compared to previous GCNs, the main difference is that when we do node label prediction, in our approach we simultaneously 
+learn a graph generation model based on the observed underlying topology, and we learn the parameters of this graph generation 
+model. We can sample a number of similar distributions but diverse topologies based on the posterior of the graph generation 
+model. Thus, in the aggregation step of the GCNs, we are able to learn more general node embedding by incorporating information 
+from different potential neighbors.<br />
+
+<br />
+For brain disease prediction, Resting-state functional magnetic resonance imaging (rs-fMRI) is transferred to Functional 
+Connectivity (FC) using the Pearson correlation matrix and then vectorized for the subject feature vector. The phenotypic 
+data (age, gender, gene expression, etc.) are normalized for similarity measures between subjects. The population graph from 
+both brain imaging data and phenotypic data will feed into Bayesian GCN for prediction and uncertainty measure.<br />
+
+<br />
+Besides the graph-based rs-fMRI brain data, the Bayesian-GCN can apply to many other applications with graph representations, 
+e.g., in biomedical area gene-gene or protein-protein interaction graphs, brain Region of Interest (ROI) connection graphs, 
+and in traditional area citation networks, social dynamic road networks. For traditional image and text tasks that can 
+construct graph representations, Bayesian-GCN also replies with a better uncertainty measure avoiding structure flaws.<br />
+</div>
+</div>
+<table class="imgtable"><tr><td>
+<img src="project/gcn.png" alt="alt text" width="426px" height="160px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<p>
+
+
+
+
+
+</p>
+<div id="footer">
+<div id="footer-text">
+Page generated 2022-09-26 13:34:32 中国标准时间, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>

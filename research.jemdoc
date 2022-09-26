@@ -1,0 +1,20 @@
+# jemdoc: menu{MENU}{index.html}, footer
+==Research Themes\n
+
+- Statistical Signal and Image Processing
+- Bayesian Learning and Statistical Machine Learning
+- Data Science for Computational Biology and Geosciences
+- Remote Sensing
+- System and Noise Modelling
+- Graphical Models
+- Information and Coding Theory
+
+== Research Project
+- [stochastic_graphs.html Stochastic Graphs]
+- [remote_sensing.html Remote Sensing]
+- [bfl.html Bayesian Learning and Statistical Machine Learning]
+- [geo.html Data Science for Geosciences]
+- [gcn.html Graph Convolution Network]
+- [neural.html Network Architectures]
+
+

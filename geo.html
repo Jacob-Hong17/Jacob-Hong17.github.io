@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<title>Time Series Forecasting with Graphical Models</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-category">TVDS Group</div>
+<div class="menu-item"><a href="index.html" class="current">Home</a></div>
+<div class="menu-item"><a href="research.html">Research</a></div>
+<div class="menu-item"><a href="team.html">Team</a></div>
+<div class="menu-item"><a href="publications.html">Publications</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Time Series Forecasting with Graphical Models</h1>
+<div id="subtitle">
+The recently emerged Graph signal processing (GSP) techniques provide efficient ways to utilize the geographical information. 
+Previous time series models on graph often use the k-nearest-neighbor algorithm to construct the graph structure among the 
+nodes through their latitude and longitude, and make prediction.  People have found it’s better to process the graph signal in 
+graph frequency domain when the data show graph stationary.<br />
+
+<br />
+However, previous time series models on graph seldom care about the non-stationary case. Hence, we proposed the multivariate 
+GARCH models on graphs (G-GARCH), which consider about the relationship among the geographical information and the volatility. 
+The G-GARCH model has the advantage of parameter saving if the data in graph frequency domain are uncorrelated. Additionally, 
+the G-GARCH model can be extend to asymmetric case, like Graph Exponential GARCH (G-GARCH), and Graph GJR-GARCH (G-GJR-GARCH).<br />
+
+<br />
+We have apply these Graph GARCH models into wind power forecasting and temperature forecasting, and achieve significantly 
+improvements comparing with previous time series models. The results are shown in the following figures. <br />
+
+</div>
+</div>
+<table class="imgtable"><tr><td>
+<img src="project/geo1.png" alt="alt text" width="322px" height="250px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<table class="imgtable"><tr><td>
+<img src="project/geo2.png" alt="alt text" width="322px" height="250px" />&nbsp;</td>
+<td align="left"></td></tr></table>
+<h2>Reference</h2>
+<p>1. J. Hong, Y. Yi, E.E. Kuruoglu, and W.K.Chan, Multivariate Time Series Forecasting with GARCH Models on Graphs. 
+IEEE TRANSACTIONS ON SIGNAL AND INFORMATION PROCESSING OVER NETWORKS (under review).<br />
+
+
+
+</p>
+<div id="footer">
+<div id="footer-text">
+Page generated 2022-09-26 13:33:16 中国标准时间, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
