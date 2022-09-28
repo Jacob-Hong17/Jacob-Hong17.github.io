@@ -1,20 +1,19 @@
 # jemdoc: menu{MENU}{index.html}, footer
 ==Time Series Forecasting with Graphical Models
 
-The recently emerged Graph signal processing (GSP) techniques provide efficient ways to utilize the geographical information. 
-Previous time series models on graph often use the k-nearest-neighbor algorithm to construct the graph structure among the 
-nodes through their latitude and longitude, and make prediction.  People have found it’s better to process the graph signal in 
-graph frequency domain when the data show graph stationary.\n
+- Recently emerged Graph signal processing (GSP) techniques provide efficient ways to utilize geographical information. 
+Previous time series models on graphs often construct graph structures through the k-nearest-neighbor algorithm with 
+latitude and longitude data. Recent research has suggested that processing the graph data in the graph frequency 
+domain provides better results.
 
-\n
-However, previous time series models on graph seldom care about the non-stationary case. Hence, we proposed the multivariate 
-GARCH models on graphs (G-GARCH), which consider about the relationship among the geographical information and the volatility. 
+- Previous time series models on graph seldom care about the non-stationary case. We propose the multivariate 
+GARCH models on graphs (G-GARCH), which considers the relationship between geographical information and volatility. 
 The G-GARCH model has the advantage of parameter saving if the data in graph frequency domain are uncorrelated. Additionally, 
-the G-GARCH model can be extend to asymmetric case, like Graph Exponential GARCH (G-GARCH), and Graph GJR-GARCH (G-GJR-GARCH).\n
+the G-GARCH model can be extended to asymmetric case, like Graph Exponential GARCH (G-GARCH), and Graph GJR-GARCH (G-GJR-GARCH).\n
 
 \n
-We have apply these Graph GARCH models into wind power forecasting and temperature forecasting, and achieve significantly 
-improvements comparing with previous time series models. The results are shown in the following figures. \n
+We have applied these Graph GARCH models into wind power forecasting and temperature forecasting, and achieved significant 
+improvements compared to previous time series models. The results are shown in the following figures. \n
 
 ~~~
 {}{img_left}{project/geo1.png}{alt text}{322}{250}{} \n 
@@ -26,7 +25,7 @@ improvements comparing with previous time series models. The results are shown i
 
 == Reference
 1. J. Hong, Y. Yi, E.E. Kuruoglu, and W.K.Chan, Multivariate Time Series Forecasting with GARCH Models on Graphs. 
-IEEE TRANSACTIONS ON SIGNAL AND INFORMATION PROCESSING OVER NETWORKS (under review).\n
+IEEE TRANSACTIONS ON SIGNAL AND INFORMATION PROCESSING OVER NETWORKS, under review.\n
 
 
 

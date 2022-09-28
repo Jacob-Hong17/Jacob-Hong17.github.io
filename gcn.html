@@ -21,32 +21,41 @@
 <div id="toptitle">
 <h1>Bayesian Graph Convolution Network</h1>
 <div id="subtitle">
-Recently, Graph Convolutional Networks (GCNs) have been used to address node and graph classification and matrix completion. 
-Brain disease prediction, which constructs the graph representation, also achieves effective results using the GCN. However, 
+</div>
+</div>
+<ul>
+<li><p>Recently, Graph Convolutional Networks (GCNs) have been used to address node and graph classification and matrix completion. 
+Brain disease prediction, which requires graph representation, also achieved effective results using the GCN. However, 
 the current implementations have limited capability to incorporate uncertainty in the graph structure. Bayesian-GCN views the 
 observed graph as a realization from a parametric family of random graphs. It targets inference of the joint posterior of the 
-random graph parameters and the node (or graph) labels using Bayes&rsquo; theorem.<br />
+random graph parameters and the node (or graph) labels using Bayes&rsquo; theorem.
 
-<br />
-Compared to previous GCNs, the main difference is that when we do node label prediction, in our approach we simultaneously 
+</p>
+</li>
+<li><p>Compared to previous GCNs, the main difference is that when we do node label prediction we simultaneously 
 learn a graph generation model based on the observed underlying topology, and we learn the parameters of this graph generation 
 model. We can sample a number of similar distributions but diverse topologies based on the posterior of the graph generation 
-model. Thus, in the aggregation step of the GCNs, we are able to learn more general node embedding by incorporating information 
-from different potential neighbors.<br />
+model. Thus, in the aggregation step of the GCNs, we are able to learn more general node embeddings by incorporating information 
+from different potential neighbors.
 
-<br />
-For brain disease prediction, Resting-state functional magnetic resonance imaging (rs-fMRI) is transferred to Functional 
+</p>
+</li>
+<li><p>For brain disease prediction, Resting-state functional magnetic resonance imaging (rs-fMRI) is transferred to Functional 
 Connectivity (FC) using the Pearson correlation matrix and then vectorized for the subject feature vector. The phenotypic 
 data (age, gender, gene expression, etc.) are normalized for similarity measures between subjects. The population graph from 
-both brain imaging data and phenotypic data will feed into Bayesian GCN for prediction and uncertainty measure.<br />
+both brain imaging data and phenotypic data will feed into Bayesian GCN for prediction and uncertainty measure.
 
-<br />
-Besides the graph-based rs-fMRI brain data, the Bayesian-GCN can apply to many other applications with graph representations, 
-e.g., in biomedical area gene-gene or protein-protein interaction graphs, brain Region of Interest (ROI) connection graphs, 
-and in traditional area citation networks, social dynamic road networks. For traditional image and text tasks that can 
-construct graph representations, Bayesian-GCN also replies with a better uncertainty measure avoiding structure flaws.<br />
-</div>
-</div>
+</p>
+</li>
+<li><p>The Bayesian-GCN can not only be applied to graph-based rs-fMRI brain data, but also many other applications with graph 
+representations, e.g. biomedical area gene-gene or protein-protein interaction graphs, brain Region of Interest (ROI) 
+connection graphs, and traditional area citation networks, social dynamic road networks. For traditional image and text tasks 
+that can 
+construct graph representations, Bayesian-GCN also replies with a better uncertainty measure avoiding structure flaws.
+
+</p>
+</li>
+</ul>
 <table class="imgtable"><tr><td>
 <img src="project/gcn.png" alt="alt text" width="426px" height="160px" />&nbsp;</td>
 <td align="left"></td></tr></table>
@@ -59,7 +68,7 @@ construct graph representations, Bayesian-GCN also replies with a better uncerta
 </p>
 <div id="footer">
 <div id="footer-text">
-Page generated 2022-09-26 13:34:32 中国标准时间, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
+Page generated 2022-09-28 15:03:19 中国标准时间, by <a href="https://github.com/wsshin/jemdoc_mathjax" target="blank">jemdoc+MathJax</a>.
 </div>
 </div>
 </td>
