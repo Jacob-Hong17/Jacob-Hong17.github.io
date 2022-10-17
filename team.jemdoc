@@ -1,5 +1,5 @@
 # jemdoc: menu{MENU}{index.html}, footer
-==Team Member
+==Team
 
 == PI: Ercan Engin Kuruoglu
 ~~~
@@ -11,12 +11,12 @@ E-mail: kuruoglu@sz.tsinghua.edu.cn\n
 
 == Postdoctoral Researcher
 
-== Ph.D. Student
+== Ph.D. Students
 ~~~
 {}{img_left}{photo/yanyi.jpg}{alt text}{100}{110}{}
 Yi Yan\n 
-Topic: Stochastic graphs\n
 E-mail:y-yan20@mails.tsinghua.edu.cn\n
+Topic: Stochastic graphs\n
 ~~~
 
 ~~~
@@ -25,7 +25,7 @@ Dayu Qin\n
 E-mail:tdy22@mails.tsinghua.edu.cn\n
 ~~~
 
-== Master Student
+== Master Students
 
 ~~~
 {}{img_left}{photo/MaverickLim.jpg}{alt text}{100}{110}{}
@@ -36,8 +36,8 @@ E-mail:mavericklim91@gmail.com\n
 ~~~
 {}{img_left}{photo/LIMutong.jpg}{alt text}{100}{110}{}
 Mutong Li\n 
-Topic: Remote sensing\n
 E-mail:li-mt20@mails.tsinghua.edu.cn\n
+Topic: Remote sensing\n
 ~~~
 
 ~~~
@@ -49,7 +49,7 @@ E-mail:poorich.eng@gmail.com\n
 
 ~~~
 {}{img_left}{photo/JunLin Guo.jpg}{alt text}{100}{110}{}
-JunLin Guo\n 
+Junlin Guo\n 
 E-mail:441503023@qq.com\n
 ~~~
 
@@ -62,15 +62,14 @@ E-mail:Rodyadel164@gmail.com\n
 ~~~
 {}{img_left}{photo/Mengen Luo.jpg}{alt text}{100}{110}{}
 Mengen Luo\n 
-Topic: Bayesian learning\n
 E-mail:lme21@mails.tsinghua.edu.cn\n
+Topic: Bayesian learning\n
 ~~~
 
 
 ~~~
 {}{img_left}{photo/Zhendong Shi.jpg}{alt text}{100}{110}{}
 Zhendong Shi\n 
-
 E-mail:shizd20@tsinghua.edu.cn\n
 ~~~
 
@@ -78,14 +77,21 @@ E-mail:shizd20@tsinghua.edu.cn\n
 ~~~
 {}{img_left}{photo/Fengfan Zhao.jpg}{alt text}{100}{110}{}
 Fengfan Zhao\n 
-Topic: Statistical Machine Learning\n
 E-mail:zff21@mails.tsinghua.edu.cn\n
+Topic: Statistical machine learning\n
 ~~~
 
 ~~~
 {}{img_left}{photo/pengchangran.jpg}{alt text}{100}{110}{}
 Changran Peng\n 
 E-mail:pcr21@mails.tsinghua.edu.cn\n
+~~~
+
+~~~
+{}{img_left}{photo/PeterMarsh.jpg}{alt text}{100}{110}{}
+Peter Marsh\n 
+E-mail:marshp10@mails.tsinghua.edu.cn\n
+Topic: Neural network hyperparameter optimization, neural architecture search\n
 ~~~
 
 ~~~
@@ -115,8 +121,8 @@ E-mail:jipeng.li@outlook.com\n
 ~~~
 {}{img_left}{photo/Suchanun Piriyasatit.jpg}{alt text}{100}{110}{}
 Suchanun Piriyasatit\n
-Topic: Earthquake Data Analysis\n 
 E-mail:zhangsm22@mails.tsinghua.edu.cn\n
+Topic: Earthquake data analysis\n 
 ~~~
 
 ~~~
@@ -125,27 +131,34 @@ Suchanuch Piriyasatit\n
 E-mail:z-yt22@mails.tsinghua.edu.cn\n
 ~~~
 
+~~~
+{}{img_left}{photo/menghaozhu.jpg}{alt text}{100}{110}{}
+Menghao Zhu\n 
+E-mail:zhumh22@mails.tsinghua.edu.cn\n
+~~~
+
 
 == Alumni
 ~~~
 {}{img_left}{photo/JackKuo.jpg}{alt text}{100}{110}{}
 Jack Guo\n 
+Master, co-advised with Prof. Wai Kin (Victor) Chan\n 
 Thesis: Neural Network Optimization\n
-Master Student, co-advised with Victor Chan\n 
+Current affiliation: The founder of Shenzhen Jingwei Intelligent Technology Co., Ltd. (深圳精位智能科技有限公司)
 ~~~
 
 ~~~
 {}{img_left}{photo/Junping.jpg}{alt text}{100}{110}{}
 Junping Hong\n 
+Master, co-advised with Prof. Wai Kin (Victor) Chan\n 
 Thesis: Graph-based Non-stationary Time Series Forecasting\n 
-Master Student, co-advised with Victor Chan\n 
-Current affiliation: Research assitant of Tsinghua-Bekeyly Institude \n
+Current affiliation: Research assitant in Tsinghua-Berkeley institute \n
 ~~~
 
 ~~~
-{}{img_left}{photo/keren.png}{alt text}{100}{110}{}
+{}{img_left}{photo/keren.jpg}{alt text}{100}{110}{}
 Keren Artiaga\n 
+Master, co-advised with Prof. Wai Kin (Victor) Chan\n 
 Thesis: Cross-Sign Language Transfer Learning using Domain Adaptation with Multi-scale Temporal Alignment\n 
-Master Student, co-advised with Victor Chan\n 
-Current affiliation: Ph.D. study at Ghent University, Belguim.\n
+Current affiliation: Ph.D. study at Ghent University, Belguim\n
 ~~~

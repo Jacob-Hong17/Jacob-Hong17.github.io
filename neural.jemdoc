@@ -11,16 +11,16 @@ Neural Network architectures. However, this relies heavily on the user's experie
 optimal architecture have recently come about. This emerging field of Auto-ML is critical in developing reliable systems that 
 can find the underlying truth of the data. 
 
-- Several research directions in this field involve the use of Genetic Algorithms and Particle Swarm Optimization in order to 
-determine the parameters. In this lab, we seek to use Bayesian based methods in order to systematically determine optimal 
-Neural Network architectures, and do so in a method that guarantees a global optima, while attempting to speed up the process 
+- Several research directions in this field involve the use of Genetic Algorithms and Particle Swarm Optimization to 
+determine the parameters. In this lab, we seek to use Bayesian-based methods to systematically determine optimal 
+Neural Network architectures, and do so in a method that guarantees a global optimum, while attempting to speed up the process 
 of reaching this state.
 
 - For applications of this research, by optimizing the networks in an automated fashion, it would be possible to create a Neural 
 Network architecture from scratch with no prior knowledge about the underlying network and what size works best. It also allows 
 us, by using Bayesian methods, to include the designer’s previous knowledge if they so choose. Secondly, it should shrink the 
 size of some Neural Networks that may be too large and over-tuned for the problem at hand, and enlarge those that are too 
-small, in order to optimize the resources available and specifically in the case of larger networks, not waste resources on 
+small, to optimize the resources available and specifically in the case of larger networks, not waste resources on 
 extraneous calculations. 
 
 ~~~

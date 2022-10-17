@@ -6,14 +6,15 @@ Previous time series models on graphs often construct graph structures through t
 latitude and longitude data. Recent research has suggested that processing the graph data in the graph frequency 
 domain provides better results.
 
-- Previous time series models on graph seldom care about the non-stationary case. We propose the multivariate 
-GARCH models on graphs (G-GARCH), which considers the relationship between geographical information and volatility. 
-The G-GARCH model has the advantage of parameter saving if the data in graph frequency domain are uncorrelated. Additionally, 
-the G-GARCH model can be extended to asymmetric case, like Graph Exponential GARCH (G-GARCH), and Graph GJR-GARCH (G-GJR-GARCH).\n
+- Previous time series models on graphs seldom care about the non-stationary case. We propose the multivariate 
+GARCH models on graphs (G-GARCH), which consider the relationship between geographical information and volatility. 
+The G-GARCH model has the advantage of parameter saving if the data in the graph frequency domain are uncorrelated. Additionally, 
+the G-GARCH model can be extended to the asymmetric case, like Graph Exponential GARCH (G-GARCH), and Graph GJR-GARCH (G-GJR-GARCH).\n
 
+
+- We have applied these Graph GARCH models into wind power forecasting and temperature forecasting, and achieved significant 
+improvements compared to previous time series models. The results are shown in the following figures.
 \n
-We have applied these Graph GARCH models into wind power forecasting and temperature forecasting, and achieved significant 
-improvements compared to previous time series models. The results are shown in the following figures. \n
 
 ~~~
 {}{img_left}{project/geo1.png}{alt text}{322}{250}{} \n 
